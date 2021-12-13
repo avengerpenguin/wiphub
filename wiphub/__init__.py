@@ -7,5 +7,4 @@ github = Github(os.getenv("GITHUB_TOKEN"))
 
 
 def notifications() -> [Notification]:
-    for n in github.get_user().get_notifications():
-        yield n
+    yield from github.get_user().get_notifications()

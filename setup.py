@@ -20,5 +20,5 @@ setup(
         "pre-commit",
     ],
     install_requires=["typer", "PyGithub"],
-    extras_require={"test": []},
+    extras_require={"test": ["pytest", "pytest-pikachu", "pytest-mypy"]},
 )
