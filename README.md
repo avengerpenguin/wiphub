@@ -21,7 +21,7 @@ that fully configurability would detract from the purpose which is:
 1. The machine should do as much work for you as it can
 2. A linear work order is preferred to remove decisions and analysis paralysis
    from your daily work
-   
+
 That is, when between "deep work" tasks, it should be possible to run `wip`
 without overthinking what it should do and let it walk you through things that
 need finishing or cleaned up.
