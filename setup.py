@@ -19,6 +19,6 @@ setup(
         "setuptools_scm>=3.3.1",
         "pre-commit",
     ],
-    install_requires=["typer", "PyGithub"],
+    install_requires=["PyGithub", "GitPython", "yarl", "typer"],
     extras_require={"test": ["pytest", "pytest-pikachu", "pytest-mypy"]},
 )
